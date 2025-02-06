@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EV Bike Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to EV Bike</h1>
+        <nav>
+            <ul>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#specs">Specifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="hero">
+        <h2>Experience the Future of Transportation</h2>
+        <p>Our EV bike is designed for efficiency, speed, and sustainability.</p>
+        <a href="#features" class="btn">Learn More</a>
+    </section>
+    <section id="features">
+        <h2>Features</h2>
+        <ul>
+            <li>Eco-friendly</li>
+            <li>High Performance</li>
+            <li>Long Battery Life</li>
+            <li>Smart Connectivity</li>
+        </ul>
+    </section>
+    <section id="specs">
+        <h2>Specifications</h2>
+        <table>
+            <tr>
+                <th>Feature</th>
+                <th>Details</th>
+            </tr>
+            <tr>
+                <td>Battery</td>
+                <td>500Wh</td>
+            </tr>
+            <tr>
+                <td>Range</td>
+                <td>100 miles</td>
+            </tr>
+            <tr>
+                <td>Top Speed</td>
+                <td>28 mph</td>
+            </tr>
+            <tr>
+                <td>Weight</td>
+                <td>45 lbs</td>
+            </tr>
+        </table>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2023 EV Bike. All rights reserved.</p>
+    </footer>
+</body>
+</html>
